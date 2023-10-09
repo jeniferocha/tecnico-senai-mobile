@@ -5,8 +5,36 @@ import styles from "./HomeScreenStyle";
 
 const MENU = [
   {
+    tela: SCREENS.SHOPPING_LIST,
+    textoBotao: "Lista de Compras",
+  },
+  {
+    tela: SCREENS.SPLIT_ACCOUNT,
+    textoBotao: "Dividir Conta",
+  },
+  {
+    tela: SCREENS.TEMPERATURE_CONVERTER,
+    textoBotao: "Conversor de temperatura",
+  },
+  {
+    tela: SCREENS.IMC,
+    textoBotao: "IMC",
+  },
+  {
+    tela: SCREENS.UNIT_CONVERTER,
+    textoBotao: "Conversor de unidade",
+  },
+  {
+    tela: SCREENS.STORYTELLER,
+    textoBotao: "Storyteller",
+  },
+  {
     tela: SCREENS.REDE_SOCIAL,
     textoBotao: "Rede Social",
+  },
+  {
+    tela: SCREENS.TEST_COMPONENTS,
+    textoBotao: "Teste Componentes",
   },
   {
     tela: SCREENS.CRUD,
